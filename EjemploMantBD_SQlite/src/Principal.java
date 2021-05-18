@@ -8,6 +8,8 @@ import javax.swing.JFrame;
 import javax.swing.JTextField;
 import javax.swing.WindowConstants;
 
+import com.sun.jndi.url.dns.dnsURLContext;
+
 import ventanas.VentanaEmple;
 import ventanas.VerdatosEmple;
 
@@ -71,6 +73,8 @@ public class Principal extends JFrame implements ActionListener{
 
 	public static void main(String[] args) {
 		 new Principal();
+		 System.out.println("linea1");
+		 System.out.printLn("linea2");
 		}//fin main
    
 }//fin class 
